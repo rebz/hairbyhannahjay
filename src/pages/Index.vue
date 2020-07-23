@@ -3,6 +3,10 @@
 
     homepage dawg
 
+    <div v-for="(post, index) in $static.posts.edges">
+      {{ post }}
+    </div>
+
   </HomeLayout>
 </template>
 
@@ -18,6 +22,20 @@ export default {
   }
 }
 </script>
+
+<static-query>
+query {
+  posts: allPost {
+    edges {
+      node {
+        id
+        title
+        excerpt
+      }
+    }
+  }
+}
+</static-query>
 
 <style>
 .home-links a {
