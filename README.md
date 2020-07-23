@@ -8,7 +8,6 @@
 - [ ] blog
 - [X] upload photos; handled in Netlify CMS Media
 - [ ] upload videos; [netlify cms youtube widget](https://github.com/hennessyevan/netlify-cms-widget-youtube)
-    - 
 
 ## 3rd Party Services
 - [ ] ...something to host media
