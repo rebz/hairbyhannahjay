@@ -7,6 +7,8 @@
       {{ post }}
     </div>
 
+    <img src="/uploads/screen-shot-2020-07-22-at-10.17.49-pm.png" />
+
   </HomeLayout>
 </template>
 
@@ -34,6 +36,7 @@ query {
       }
     }
   }
+
 }
 </static-query>
 

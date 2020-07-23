@@ -2,6 +2,7 @@
   "name": "hairbyhannajay",
   "private": true,
   "scripts": {
+    "dev": "gridsome develop",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
@@ -11,6 +12,8 @@
     "@gridsome/transformer-remark": "^0.6.1",
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
-    "netlify-cms": "^2.10.54"
+    "netlify-cms": "^2.10.54",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2"
   }
 }
